@@ -1,0 +1,19 @@
+{
+    "message":  {
+                    "type":  "tool-calls",
+                    "toolCallList":  [
+                                         {
+                                             "function":  {
+                                                              "arguments":  {
+                                                                                "new_start_at":  "2026-11-17T11:00:00+05:00",
+                                                                                "appointment_id":  "YOUR_APPOINTMENT_ID",
+                                                                                "customer_phone":  "03000000001"
+                                                                            },
+                                                              "name":  "reschedule_appointment"
+                                                          },
+                                             "id":  "reschedule-test-001",
+                                             "type":  "function"
+                                         }
+                                     ]
+                }
+}

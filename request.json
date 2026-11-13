@@ -1,0 +1,21 @@
+﻿{
+    "message":  {
+                    "type":  "tool-calls",
+                    "toolCallList":  [
+                                         {
+                                             "function":  {
+                                                              "arguments":  {
+                                                                                "doctor_id":  "6270c80d-f03e-4c5d-83c9-a96fc8606f34",
+                                                                                "customer_phone":  "03000000000",
+                                                                                "start_at":  "2026-11-16T10:00:00+05:00",
+                                                                                "customer_name":  "TEST CUSTOMER",
+                                                                                "service_id":  "8efaa01e-13aa-4c98-83fb-df108f9521cd"
+                                                                            },
+                                                              "name":  "book_appointment"
+                                                          },
+                                             "id":  "test-booking-002",
+                                             "type":  "function"
+                                         }
+                                     ]
+                }
+}

@@ -1,0 +1,18 @@
+{
+    "message":  {
+                    "type":  "tool-calls",
+                    "toolCallList":  [
+                                         {
+                                             "function":  {
+                                                              "arguments":  {
+                                                                                "customer_phone":  "03000000000",
+                                                                                "appointment_id":  "8f8dbe3f-9024-4a70-a496-7ddccaa6c56d"
+                                                                            },
+                                                              "name":  "cancel_appointment"
+                                                          },
+                                             "id":  "cancel-appointment-001",
+                                             "type":  "function"
+                                         }
+                                     ]
+                }
+}

@@ -1,0 +1,19 @@
+{
+    "message":  {
+                    "type":  "tool-calls",
+                    "toolCallList":  [
+                                         {
+                                             "function":  {
+                                                              "arguments":  {
+                                                                                "doctor_id":  "6270c80d-f03e-4c5d-83c9-a96fc8606f34",
+                                                                                "start_at":  "2026-11-16T10:00:00+05:00",
+                                                                                "service_id":  "8efaa01e-13aa-4c98-83fb-df108f9521cd"
+                                                                            },
+                                                              "name":  "check_availability"
+                                                          },
+                                             "id":  "test-availability-001",
+                                             "type":  "function"
+                                         }
+                                     ]
+                }
+}
